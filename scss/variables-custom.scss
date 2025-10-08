@@ -1,0 +1,42 @@
+$blue: #000000;
+$white: #000000;
+$dark: rgba(194, 194, 194, 0.77);
+$customColor2: #ffffff;
+$customColor3: #ffffff;
+$customColor4: #ffffff;
+
+/* Background && Buttons Colors: */
+@include generateColors('blue',$blue ,#000000);
+@include generateColors('white',$white ,#000000);
+@include generateColors('dark',$dark ,#000000);
+@include generateColors('customColor2',$customColor2 ,#202020);
+@include generateColors('customColor3',$customColor3 ,#202020);
+@include generateColors('customColor4',$customColor4 ,#202020);
+
+/* Background && Buttons Social Media Colors: */ 
+@include generateColors("social-facebook", #3b5998);
+@include generateColors("social-twitter", #55acee);
+@include generateColors("social-googlePlus", #DD4330);
+@include generateColors("social-behance", #105DFB);
+@include generateColors("social-medium", #12100E);
+@include generateColors("social-stumbleupon", #eb4924);
+@include generateColors("social-linkedin", #0077b5);
+@include generateColors("social-pinterest", #cc2127);
+@include generateColors("social-instagram", #e4405f);
+@include generateColors("social-tumblr", #34455D);
+@include generateColors("social-dribbble", #ea4c89);
+@include generateColors("social-youtube", #cd201f);
+@include generateColors("social-delicious", #3399ff);
+@include generateColors("social-digg", #000000);
+@include generateColors("social-vimeo", #fff, #1ab7ea);
+@include generateColors("social-whatsapp", #25D366);
+@include generateColors("social-xing", #026466);
+@include generateColors("social-youtube", #FC0D1C);
+
+/* Text Colors: */
+@include generateTextColors('blue',$blue);
+@include generateTextColors('white',$white);
+@include generateTextColors('dark',$dark);
+@include generateTextColors('customColor2',$customColor2);
+@include generateTextColors('customColor3',$customColor3);
+@include generateTextColors('customColor4',$customColor4);

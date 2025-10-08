@@ -1,0 +1,32 @@
+/* 
+Compile this file to css/custom_fo5Cud96.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+$blue: #000000;
+$white: #000000;
+$dark: rgba(194, 194, 194, 0.77);
+$customColor2: #ffffff;
+$customColor3: #ffffff;
+$customColor4: #ffffff;
+
+@import "variables.scss";
+/* Background && Buttons Colors: */
+
+/* Text Colors: */
+
+
+/* Slide 07 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-07-03bb59fe"] */
+.slide[data-cid="slide-07-03bb59fe"]{
+	.button.play.button-7 {
+    margin: 0 20px;
+  }
+  @include media(1100px, max) {
+    .button.play.button-7 {
+      display: block;
+      margin: 30px auto;
+    }
+  }
+}

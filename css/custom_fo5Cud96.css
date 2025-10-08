@@ -1,0 +1,13 @@
+/* Background && Buttons Colors: */
+/* Text Colors: */
+/* Slide 07 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-07-03bb59fe"] */
+.slide[data-cid=slide-07-03bb59fe] .button.play.button-7 {
+  margin: 0 20px;
+}
+@media (max-width: 1099px) {
+  .slide[data-cid=slide-07-03bb59fe] .button.play.button-7 {
+    display: block;
+    margin: 30px auto;
+  }
+}

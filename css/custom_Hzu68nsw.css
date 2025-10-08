@@ -1,0 +1,25 @@
+/* Background && Buttons Colors: */
+/* Text Colors: */
+/* Slide 57 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-57-119c03a6"] */
+.slide[data-cid=slide-57-119c03a6] .social-circles li {
+  display: inline-block;
+  padding: 5px;
+}
+.slide[data-cid=slide-57-119c03a6] .social-circles li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.slide[data-cid=slide-57-119c03a6] .social-circles li a svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+.slide[data-cid=slide-57-119c03a6] .social-circles li a:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
